@@ -1,0 +1,233 @@
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  padding: 5px;
+  background-color: rgba(224, 224, 224, 0.8);
+  border-radius: 8px;
+  width: 80%;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: relative;
+}
+
+.search_bar .dropdown {
+  margin-right: 10px;
+  position: relative;
+  z-index: 5;
+}
+
+.search_bar input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  height: 60px;
+  width: 60%; /* 너비 조정 */
+}
+
+.search_bar .search_button {
+  background: none;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.search_bar  .search_img {
+  width: 35px;
+  height: 35px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.buttons button {
+  padding: 8px 30px;
+  font-size: 20px;
+  background-color: rgba(224, 224, 224, 0.8);
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.buttons button:active,
+.buttons button:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_toggle {
+  padding: 10px;
+  background-color: #61ac64;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+  z-index: 1000;
+}
+
+.dropdown_menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.dropdown_menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown_menu li:hover {
+  background-color: #f1f1f1;
+  display: block;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.community-table {
+  width: 100%;
+  border-collapse: collapse;
+  z-index: 1;
+}
+
+.community-table-container {
+  padding: 0 10px;
+  margin: 15px 10px;
+}
+
+.community-table th, .community-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.community-table th {
+  background-color: #f2f2f2; 
+  font-weight: 530;
+}
+
+.community-table th:nth-child(1) {
+  padding: 5px 10px;
+  width: 5%;
+}
+
+.community-table th:nth-child(2) {
+  padding: 5px 15px;
+  width: 10%;
+}
+
+.community-table th:nth-child(3) {
+  padding: 5px 20px;
+  width: 40%;
+}
+
+.post-title {
+  cursor: pointer;
+}
+.post-title:hover {
+  text-decoration: underline;
+}
+
+.community-table th:nth-child(4) {
+  padding: 5px 10px;
+  width: 10%;
+}
+
+.community-table th:nth-child(5) {
+  padding: 5px 10px;
+  width: 10%;
+}
+
+.community-table th:nth-child(6) {
+  padding: 5px 15px;
+  width: 15%;
+}
+
+.posts-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.posts-info .postNum {
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.create-post {
+  margin-left: 15px;
+}
+
+.post-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.post-button button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgba(224, 224, 224, 0.8);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 500;
+}
+
+.post-button button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.posts-info .create-post {
+  margin-right: auto;
+  cursor: pointer;
+  width: 113px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgba(224, 224, 224, 0.8);
+  font-size: 16px;
+}
+
+.posts-info .create-post:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+#search {
+  font-size: 17px;
+  padding: 10px;
+}

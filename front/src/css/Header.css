@@ -1,0 +1,24 @@
+.login {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.d-flex {
+  padding-right: 50px;
+}
+
+.register {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.userfunction {
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  cursor: pointer;
+  padding-right: 20px;
+  padding-top: 10px;
+}

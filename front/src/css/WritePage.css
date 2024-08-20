@@ -1,0 +1,38 @@
+.Writecontainer {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+h5 {
+  margin-top: 15px;
+}
+
+.writeinput {
+  height: 80vh;
+  resize: none;
+  margin-top: 10px;
+}
+/* 
+.paragraph {
+  width: 50%;
+  margin: 0 auto;
+  white-space: pre-wrap;
+  text-align: left;
+} */
+
+.mb-2 {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.deletebutton {
+  width: 45%;
+  background-color: #6c757d;
+}
+
+.savebutton {
+  width: 45%;
+  background-color: #0d6efd;
+}

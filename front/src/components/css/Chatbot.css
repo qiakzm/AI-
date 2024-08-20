@@ -1,0 +1,197 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.chatbot-container {
+  position: relative;
+}
+
+.chat-icons {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column-reverse; /* 아이콘을 아래부터 위로 배치 */
+  align-items: center;
+  gap: 10px; /* 아이콘 사이의 간격 조절 */
+  border-radius: 10px;
+  background-color: #61ac64bf;
+}
+
+.chat-icon, .read-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 10px; /* 이미지와 테두리 사이의 간격 조절 */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.chat-icon:hover, .read-icon:hover {
+  transform: scale(1.1); /* 아이콘 확대 효과 */
+}
+
+.chat-icon img, .read-icon img {
+  width: 55px;
+  height: 55px;
+}
+
+
+.chatbot-popup {
+  position: fixed;
+  width: 500px;
+  height: 600px;
+  right: 150px;
+  bottom: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.chatbot-header {
+  background-color: #61ac64;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.chatbot-header .logo {
+  width: 50px;
+  height: 40px;
+}
+
+.chatbot-header .title {
+  flex: 1;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.chatbot-header .close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.chatbot-body {
+
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 60px;
+}
+
+.message-row {
+  display: flex;
+  align-items: flex-end; /* 수직 정렬을 가운데로 맞춤 */
+  margin-bottom: 10px;
+}
+
+.message-row.user {
+  flex-direction: row-reverse;
+}
+
+.user-message, .bot-message {
+  display: flex;
+  align-items: center;
+  max-width: 70%; /* 메시지 컨테이너의 최대 너비 설정 */
+}
+
+.user-timestamp, .bot-timestamp {
+  margin-left: 10px; /* 타임스탬프와 메시지 사이의 간격 */
+}
+
+.bubble {
+  background-color: #f1f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  word-break: break-word; /* 긴 단어나 줄바꿈 허용 */
+  margin: 10px;
+}
+
+.user-message .bubble {
+  background-color: #61ac646f;
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #888;
+  padding: 13px 0;
+}
+
+
+.chat-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width:100%;
+  margin-left: 0px;
+}
+
+.chat-input-container input[id="subject"] {
+  padding: 10px;
+  width: 25%;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.chat-input-container input[id="search-content"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.chat-input-container button {
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.chat-input-container button:hover{
+  background-color: #ccc;
+}
+
+.chat-input-container button img {
+  width: 25px;
+  height: 25px;
+}
+
+.robot_img {
+  width: 38px;
+  height: auto;
+}

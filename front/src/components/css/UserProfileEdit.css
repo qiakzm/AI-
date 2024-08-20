@@ -1,0 +1,121 @@
+.edit-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.edit-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 600px; 
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-content h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+
+.edit-content img {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.edit-content p {
+  margin-top: 10px;
+  font-size: x-large;
+  margin-bottom: 15px;
+  color: #495057;
+}
+
+.edit-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-content input {
+  width: 570px; /* 너비를 100%로 설정 */
+  max-width: 580px; /* 최대 너비 설정 */
+  height: 28px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.edit-content ::placeholder {
+  font-size: medium;
+}
+
+.edit-content button {
+  padding: 10px 20px;
+  background-color: #61ac64;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100px;
+  height: 45px;
+  font-size: medium;
+}
+
+.edit-content button:hover {
+  background-color: #4f8b51;
+}
+
+.edit-details-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.edit-details-container h2 {
+  margin-bottom: 20px;
+}
+
+.edit-details-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-details-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-details-container input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.edit-details-container button {
+  padding: 10px;
+  background-color: #61ac64;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-details-container button:hover {
+  background-color: #4f8b51;
+}

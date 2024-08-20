@@ -1,0 +1,152 @@
+.BoardMainDetail {
+  width: 820px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.postdetail {
+  align-items: center; /* 가운데 정렬을 위해 align-items 속성 추가 */
+  border: 1px blue solid;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.posttitle {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.postdetail2 {
+  display: flex;
+  margin-left: 10px;
+  font-size: 13.5px;
+}
+
+span {
+  padding-left: 10px;
+}
+
+.postcontent {
+  width: 100%;
+  height: 80vh;
+  border: 1px gray solid;
+  margin: 0 auto;
+  margin-top: 45px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.likebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.comment {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.commentinput {
+  width: 100%;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.textinput {
+  margin-top: 20px;
+  resize: none;
+}
+
+p {
+  text-align: left;
+}
+
+.commentinput > h4 {
+  text-align: left;
+}
+
+.commentinputbutton {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.commentbox {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.reformdelete {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.likecircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.likecircle-red {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.likecircle:hover {
+  background-color: red;
+}
+
+.spanlikecircle {
+  width: 40px;
+
+  padding: 0;
+  color: black;
+}
+
+.likeicon {
+  color: white;
+}
+
+.likespan {
+  color: black;
+  display: flex;
+  margin-right: 6px;
+  text-align: left;
+  font-size: 10px;
+}
+
+.mb-3 {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .BoardMainDetail {
+    width: 360px;
+  }
+}

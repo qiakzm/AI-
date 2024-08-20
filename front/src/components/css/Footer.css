@@ -1,0 +1,16 @@
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #000;
+  }
+  
+  .selfcheck {
+    border: 1px solid #000;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 1px;
+    background-color: #D9D9D9;
+    font-weight: bold;
+  }
+  

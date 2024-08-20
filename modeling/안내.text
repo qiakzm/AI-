@@ -1,0 +1,20 @@
+1) subject_db.ipynb 파일을 연다. 내부 코드를 실행해 json 파일이 제대로 만들어지는지, MySQL table에 등록이 잘 되는지 확인한다.
+
+2) chatbot_model.py는 Flask 구조로 작성되어 있다. 프롬프트에서 /path/modeling (경로확인) 'python chatbot_model.py' 를 실행시키면 된다.
+
+3) 추가로 확인해야 할 사항들은 다음과 같다.
+    <SpringBoot>
+    - demo\src\main\java\com\example\demo
+    3-1) entity 폴더에 Subject.java 파일을 확인한다.
+    3-2) Service 폴더에 SubjectService.java 파일을 확인한다.
+    3-3) Security\Config 폴더에 WebConfig.java 파일을 확인한다.
+    3-4) Repository 폴더에 SubjectRepository.java 파일을 확인한다.
+    3-5) DTO 폴더에 AnswerCheckRequest.java 파일을 확인한다.
+    3-6) Controller 폴더에 SubjectController.java 파일을 확인한다.
+
+
+* 제가 스프링부트에서 만졌던 부분은 이게 끝입니다!
+* 해당 기능들과 관련된 리액트 파일은 다음과 같습니다.
+    - Chatbot.js, SubjectSelectPopup.js, TodayProblem.js
+    - redux\actions\todayProblemActions.js
+    - redux\reducers\todayProblemReducer.js

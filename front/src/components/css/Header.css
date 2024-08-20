@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #000;
+  position: relative; /* 아이콘 위치 조정을 위한 상대 위치 지정 */
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  position: absolute;
+  left: 20px; /* 메뉴바 시작점과 맞추기 위한 조정 */
+}
+
+.header-center {
+  flex: 1;
+  justify-content: center;
+}
+
+.header-right {
+  position: absolute;
+  right: 20px; /* 메뉴바 끝점과 맞추기 위한 조정 */
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 5px;
+}
+
+.icon-button img {
+  height: 30px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logout-button,
+.login-register {
+  text-decoration: none;
+  color: #000;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.notification-popup {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.notification-popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-popup li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  cursor:pointer;
+}
+
+.notification-popup li:last-child {
+  border-bottom: none;
+}
+
+.notification-popup span {
+  color: #888;
+  font-size: 12px;
+}

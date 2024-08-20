@@ -1,0 +1,173 @@
+.MainMyPage {
+  width: 360px;
+  height: auto;
+
+  margin: 0 auto;
+  border: 1px solid skyblue;
+}
+
+.MyPageProfilepic {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  align-items: center;
+  justify-content: center;
+}
+
+.MyPageProfileCircle {
+  display: flex;
+  width: 62px;
+  height: 62px;
+  border-radius: 50px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.MyPageProfileCircle2 {
+  display: flex;
+  width: 58px;
+  height: 58px;
+  border-radius: 50px;
+  border: 2px solid aqua;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.MyPageProfilename {
+  display: flex;
+  width: 100%;
+  height: 74px;
+  border-bottom: 2px solid #dfe3e8;
+}
+
+.Profiledetail {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Profilename {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.Profilename > span {
+  font-size: 15px;
+  color: black;
+  font-family: SUITE-Regular;
+}
+
+.Profilechange {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  justify-content: right;
+}
+
+.Profilechange > span {
+  font-size: 15px;
+  color: black;
+  font-family: SUITE-Regular;
+  margin-right: 10px;
+}
+
+.MyPageblankspace {
+  width: 100%;
+  height: 62px;
+  background-color: white;
+}
+
+.MyPagefunction {
+  width: 100%;
+  height: 70%;
+}
+
+.MyPageOrder {
+  width: 100%;
+  height: 62px;
+}
+
+.MyPageIcon {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 2px solid #dfe3e8;
+}
+
+.Iconfont {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  align-items: center;
+}
+
+.Orderdetail {
+  display: flex;
+  width: 80%;
+  height: 100%;
+
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+.Orderdetail > span {
+  color: black;
+  font-size: 14px;
+  font-family: SUITE-Regular;
+}
+
+.MyPageWishList {
+  width: 100%;
+  height: 62px;
+}
+
+.MyPageBoardlink {
+  width: 100%;
+  height: 62px;
+}
+
+.MyPageComment {
+  width: 100%;
+  height: 62px;
+}
+
+.MyPageLike {
+  width: 100%;
+  height: 62px;
+}
+
+.MyPageReview {
+  width: 100%;
+  height: 62px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,65 @@
+.find-id-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .find-id-popup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 340px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+  }
+  
+  .find-id-section h2 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .find-id-section .short-input {
+    width: calc(75% - 10px);
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .find-id-button {
+    width: 25%;
+    height: 40px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .find-id-section {
+    margin-bottom: 20px;
+  }
+  

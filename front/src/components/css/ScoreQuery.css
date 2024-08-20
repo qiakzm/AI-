@@ -1,0 +1,88 @@
+.score-container .content {
+    display: flex;
+}
+
+.score-container .sidebar {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-container .sidebar h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.score-container .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.score-container .sidebar ul li {
+    margin: 10px 0;
+}
+
+.score-container .sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.score-container .sidebar ul li a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.score-container .sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.filters label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filters select {
+    margin-top: 5px;
+    background: none;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.chart-container {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+}

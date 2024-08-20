@@ -1,0 +1,118 @@
+.List-container {
+  width: 1100px;
+  margin-top: 0px;
+  padding: 0 15px; /* 좌우 패딩 추가 */
+}
+
+.List-container .title {
+  margin-bottom: 0px;
+  color: #333;
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: center;
+  gap: 20px; /* 적절한 간격으로 조정 */
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+.list {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 20px;
+  color: #555;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.list li div:hover {
+  text-decoration: underline !important;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.commentIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.commentItem {
+  color: #333;
+  padding: 8px;
+  position: relative;
+  flex: 1;
+  text-align: left; 
+}
+
+.commentItem p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 5px;
+}
+
+.commentTitle {
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  text-align: left; 
+}
+
+.commentList-container a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.commentList-container a:visited {
+  color: inherit; /* 방문한 링크 색상 변경 */
+}
+
+.commentList-container a:hover {
+  text-decoration: underline; /* 링크에 마우스를 올릴 때 밑줄 추가 */
+}
+
+.postList-container a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.postList-container a:visited {
+  color: inherit; /* 방문한 링크 색상 변경 */
+}
+
+.postList-container a:hover {
+  text-decoration: underline; /* 링크에 마우스를 올릴 때 밑줄 추가 */
+}
+
+.List-container a {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 부모 요소의 색상 상속 */
+}
+
+.List-container a:visited {
+  color: inherit; /* 방문한 링크 색상 변경 */
+}
+
+.List-container a:hover {
+  text-decoration: underline; /* 링크에 마우스를 올릴 때 밑줄 추가 */
+}

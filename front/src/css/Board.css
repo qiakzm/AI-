@@ -1,0 +1,72 @@
+.common-table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-spacing: 0;
+  margin-top: 50px;
+}
+
+.common-table-header-column {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0;
+  font-size: 16px;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+
+.board-table:hover {
+  background-color: #eceaea;
+  cursor: pointer;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+.writebutton {
+  margin-top: 15px;
+}
+
+.freeboard {
+  margin-top: 50px;
+  height: 60.5vh;
+}
+
+.pageButton {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0;
+  background: black;
+  color: white;
+  font-size: 1rem;
+}
+
+.pageButton:hover {
+  background: tomato;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.pageButton[disabled] {
+  background: grey;
+  cursor: revert;
+  transform: revert;
+}
+
+.paging {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin: 16px;
+}
+
+td {
+  text-align: center;
+  width: 450px;
+}
+
+.pageDots {
+  padding-right: 5px;
+}

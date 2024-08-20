@@ -1,0 +1,33 @@
+.registerform {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 100px;
+}
+
+.emailinput {
+  margin: 0 auto;
+  width: 50%;
+  height: 95px;
+}
+
+.passwordinput {
+  margin: 0 auto;
+  width: 50%;
+  height: 95px;
+}
+
+.nicknameinput {
+  margin: 0 auto;
+  width: 50%;
+  height: 95px;
+}
+
+.nickdetail {
+  float: left;
+}
+
+.registerbutton {
+  width: 50%;
+  height: 4vh;
+  margin-top: 30px;
+}

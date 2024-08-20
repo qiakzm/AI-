@@ -1,0 +1,116 @@
+.register-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.register-popup {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 300px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.register-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+}
+
+.register-popup input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.name-grade {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-grade input {
+  width: calc(50% - 10px);
+}
+
+.name-grade select {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.email-container,
+.verification-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-container input,
+.verification-container input {
+  flex: 1;
+}
+
+.email-container button,
+.verification-container button {
+  width: 60px;
+  height: 36px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.email-container button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.verification-container span {
+  align-self: center;
+  margin-left: 10px;
+  font-size: center;
+}
+
+.register-error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

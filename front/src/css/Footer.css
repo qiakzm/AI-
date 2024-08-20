@@ -1,0 +1,263 @@
+.mainfooter {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: black;
+
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-top: 200px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1600px) {
+  .mainfooter {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.footernav {
+  display: flex;
+  width: 60%;
+
+  margin: 0 auto;
+  height: auto;
+
+  flex-wrap: wrap;
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1600px) {
+  .footernav {
+    display: block;
+    width: 100%;
+  }
+}
+
+.firstdiv {
+  width: 20%;
+  height: 5%;
+}
+
+.seconddiv {
+  width: 50%;
+  height: 80%;
+  display: flex;
+}
+
+@media (max-width: 1600px) {
+  .seconddiv {
+    display: block;
+    height: 600px;
+  }
+}
+
+.thirddiv {
+  width: 30%;
+  height: 80%;
+}
+
+@media (max-width: 1600px) {
+  .thirddiv {
+    display: block;
+    width: 100%;
+    height: 60px;
+  }
+}
+
+.fourthdiv {
+  width: 100%;
+  height: 10%;
+}
+
+@media (max-width: 1600px) {
+  .fourthdiv {
+    display: block;
+    height: 5px;
+  }
+}
+
+.fifthdiv {
+  width: 100%;
+  height: 5%;
+  text-align: left;
+}
+
+@media (max-width: 1600px) {
+  .fifthdiv {
+    display: flex;
+  }
+}
+
+.firstdl {
+  width: 30%;
+  height: 100%;
+  color: white;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: left;
+}
+
+@media (max-width: 1600px) {
+  .firstdl {
+    width: 100%;
+    height: 30%;
+  }
+}
+
+.thirddl {
+  width: 30%;
+  height: 100%;
+  color: white;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: left;
+}
+
+@media (max-width: 1600px) {
+  .thirddl {
+    width: 100%;
+    height: 20%;
+    margin-top: 70px;
+  }
+}
+
+.thirddl > a {
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 20px;
+}
+
+.firstdl > a {
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 20px;
+}
+
+dt {
+  color: gray;
+}
+
+h2 {
+  color: white;
+  text-align: left;
+}
+
+ul {
+  width: 50%;
+
+  display: inline-block;
+  color: #919496;
+  padding-left: 0;
+}
+
+ul > a {
+  padding: 8px;
+
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.fifthspan {
+  color: #919496;
+  float: right;
+  font-size: 12px;
+}
+
+.check {
+  color: white;
+  text-decoration: none;
+
+  width: 45%;
+}
+
+@media (max-width: 1600px) {
+  .check {
+    width: 67px;
+  }
+}
+
+.check:hover {
+  color: red;
+}
+
+.Linkpage {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+@media (max-width: 1600px) {
+  .Linkpage {
+    margin-left: -2.5px;
+  }
+}
+
+.Linkpage:hover {
+  color: white;
+}
+
+.thirdul {
+  width: 60%;
+
+  display: flex;
+  list-style: none;
+
+  float: right;
+}
+
+@media (max-width: 1600px) {
+  .thirdul {
+    width: 150px;
+    float: left;
+  }
+}
+
+.circle {
+  background-color: #222326;
+  width: 54px;
+  height: 54px;
+  border-radius: 50px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  margin-left: auto;
+}
+
+.circlespan {
+  width: 27px;
+  justify-content: center; /* 가로 중앙 정렬 */
+  text-align: left;
+  padding: 0;
+}
+
+.icon {
+  color: white;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.fifthspan {
+  margin-right: 10px;
+
+  width: 100px;
+}
+
+@media (max-width: 1600px) {
+  .fifthul {
+    width: 600px;
+  }
+}

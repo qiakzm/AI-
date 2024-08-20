@@ -1,0 +1,141 @@
+
+.content-area {
+    padding: 20px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding-top: 0;
+    display: flex;
+    
+}
+
+.title h1 {
+    margin-right: 750px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.title img {
+    margin-left: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.search-box {
+    position: relative; /* 상대 위치 설정 */
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(121, 121, 148);
+    border-radius: 5px;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.search_button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search_button:hover {
+    background-color: #5d5e5d;
+}
+
+.search_button img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.faq {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f8ff; /* 연한 파란색 배경 */
+    border: 1px solid #d1e7ff; /* 부드러운 파란색 테두리 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.faq-item:hover {
+    background-color: #e0f0ff;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px; /* 질문 글씨 크기 조정 */
+    text-align: left; /* 왼쪽 정렬 */
+    margin: 0; /* 마진 제거 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 18px; /* 답변 글씨 크기 조정 */
+    border-left: 3px solid #d1e7ff; /* 부드러운 파란색 테두리 */
+    text-align: left;
+}
+
+.bookmark-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f39c12;
+    outline: none;
+    width: 40px; /* 버튼의 너비와 높이를 설정 */
+    height: 40px;
+    display: flex; /* 플렉스 박스로 설정 */
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    font-size: 30px; /* 폰트 크기 키움 */
+}
+
+.bookmarked {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookmarked h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}

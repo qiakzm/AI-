@@ -1,0 +1,162 @@
+.first {
+  width: 100%;
+  height: 80vh;
+}
+
+.title {
+  text-align: left;
+}
+
+.carouselbottom {
+}
+
+.outercontainer {
+  height: 60vh;
+  display: block;
+}
+
+.discoverh2 {
+  text-align: center;
+  color: black;
+}
+
+.innercontainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blankspace {
+  height: 100px;
+}
+
+.blankspace-2 {
+  height: 30px;
+}
+
+.column {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  height: 38vh;
+  justify-content: space-between;
+}
+
+@media (max-width: 1600px) {
+  .column {
+    display: block;
+    width: 100%;
+    height: 114vh;
+  }
+
+  .outercontainer {
+    height: 160vh;
+  }
+
+  .discoverh2 {
+    margin-top: 20px;
+  }
+}
+
+.columndetail {
+}
+
+.detail {
+  width: 280px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.imagedetail {
+  height: 187px;
+}
+
+.Lpbuy {
+  display: flex;
+  width: 100%;
+
+  height: 480px;
+}
+
+.lpbuypic {
+  width: 50%;
+  height: 480px;
+}
+
+.lpdiv {
+  width: 50%;
+  height: 480px;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 1600px) {
+  .Lpbuy {
+    display: block;
+  }
+
+  .lpbuypic {
+    width: 100%;
+    height: 50%;
+  }
+
+  .lpdiv {
+    width: 100%;
+    height: 50%;
+  }
+
+  .blankspace {
+    height: 0px;
+  }
+
+  .innerlpp {
+    margin-top: 0px;
+  }
+}
+
+.blankspace-3 {
+  height: 130px;
+}
+
+.innerlpdiv {
+  width: 50%;
+  height: 480px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media (max-width: 1600px) {
+  .innerlpdiv {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font: size 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.innerlph2 {
+  text-align: left;
+}
+
+.innerlpp {
+  width: 100%;
+}
+
+.tradebutton {
+  width: 30%;
+  height: 44px;
+  font: 16px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dddddd;
+}

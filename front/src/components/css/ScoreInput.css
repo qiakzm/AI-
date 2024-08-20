@@ -1,0 +1,179 @@
+
+
+.score-container .content {
+    display: flex;
+}
+
+.score-container .sidebar {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-container .sidebar h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.score-container .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.score-container .sidebar ul li {
+    margin: 10px 0;
+}
+
+.score-container .sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.score-container .sidebar ul li a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.score-container .sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.radio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.radio-header select {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.section div {
+    width: 48%;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-fields label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-fields input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.omr-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.omr-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.omr-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.omr-question-number {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.omr-cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.omr-cell.selected {
+    background-color: #7784AF;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button-container .submit-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #61ac64;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button-container .submit-button:hover {
+    background-color: #4f8b51;
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.radio-buttons label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
